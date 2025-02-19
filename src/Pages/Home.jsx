@@ -8,8 +8,9 @@ import Clients from "./Clients";
 import Orders from "./Orders";
 import Order from "../Components/Order";
 import LeftSideBar from "../Components/LeftSideBar";
-import RightSideBar from "../Components/RightSideBar"
+import RightSideBar from "../Components/RightSideBar";
 import { PageContext } from "../Context/PageContext";
+import Main1 from "../Components/Main1";
 
 function Home() {
 
@@ -33,6 +34,7 @@ function Home() {
             <Route path="/orders" element={<Orders />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="clients/:clientId" element={<Client />} />
+            <Route path="*" element={<Main1 />} />
           </Routes>
         </div>
         <RightSideBar />
