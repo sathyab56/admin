@@ -22,6 +22,7 @@ import QualityCheck from "./quality-check";
 import Packing from "./packing";
 import Courier from "./courier";
 import Newsupplier from "../Components/Newsupplier";
+import Newcourier from "../Components/Newcourier";
 
 
 function Home() {
@@ -57,6 +58,7 @@ function Home() {
             <Route path="/packing" element={<Packing />} />
             <Route path="/courier" element={<Courier />} />
             <Route path="/Newsupplier" element={<Newsupplier />} />
+            <Route path="/Newsupplier" element={<Newcourier />} />
            
           </Routes>
         </div>
