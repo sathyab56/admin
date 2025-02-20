@@ -19,7 +19,7 @@ const LeftSideBar = () => {
                 <NavLink className="flex items-center gap-3 border border-gray-300 border-r-0 px-3 py-2 rounded w-[90%] bg-cyan-700 text-xl text-white" to="/Newsupplier">
                     <p className='md:block text-center w-full'>SUPPLIERS</p>
                 </NavLink>
-                <NavLink className="flex items-center gap-3 border border-gray-300 border-r-0 px-3 py-2 rounded w-[90%] bg-cyan-700 text-xl text-white"to="/Newcourier">
+                <NavLink className="flex items-center gap-3 border border-gray-300 border-r-0 px-3 py-2 rounded w-[90%] bg-cyan-700 text-xl text-white" to="/Newcourier">
                     <p className='md:block text-center w-full'>COURIER</p>
                 </NavLink>
                 <NavLink className="flex items-center gap-3 border border-gray-300 border-r-0 px-3 py-2 rounded w-[90%] bg-cyan-700 text-xl text-white" to="/user">
