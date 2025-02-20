@@ -22,7 +22,7 @@ const Login = () => {
 
     useEffect(()=>{
       if(login){
-        navigate("orders")
+        navigate("*")
       }
     },[localStorage.getItem("login"), login])
 
